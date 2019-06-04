@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.5.RELEASE</version>
+		<version>1.5.21.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.yitian.springcloud</groupId>
+	<groupId>com.yitian.cloud</groupId>
 	<artifactId>microservice-simple-consumer-movie</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>microservice-simple-consumer-movie</name>
-	<description>Demo project for Spring Boot 一个SpringCloud的demo 影视</description>
+	<description>电影</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -21,7 +21,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
